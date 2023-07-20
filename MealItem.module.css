@@ -1,0 +1,50 @@
+.meal {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+    color: black;
+    background-color: rgb(249, 248, 250);
+    margin: 20px 230px;
+    border-radius: 40px;
+    padding: 3px 30px;
+  }
+  
+  .meal h3 {
+    margin: 0 0 0.25rem 0;
+  }
+  
+  .description {
+    font-style: italic;
+  }
+  
+  .price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+  }
+  .button{
+    color: rgb(19, 18, 18);
+    background-color: rgb(25, 161, 240);
+    border-radius: 10px;
+    border: 2px solid rgb(13, 149, 228);
+    margin: 30px ;
+    box-shadow: 2px 2px rgb(19, 18, 18);
+    
+  }
+
+  .input{
+    width: 30%;
+
+  }
+  .label{
+    color: red;
+  }
+
+  .quantity{
+    margin: 1px 80px;
+    width: 20%;
+  }
