@@ -2,6 +2,7 @@ import React from 'react'
 import Card from '../UI/Card';
 
 import classes from '../MEALS/MealItem.module.css'
+import MealButton from './MealButton';
 
 export default function meal() {
     const DUMMY_MEALS = [
@@ -40,19 +41,7 @@ export default function meal() {
         <div className={classes.price}>RS:{dish.price}</div>
         </div>
 
-       
-          
-        
-        <div>
-        
-        <button className={classes.button}>ADD ITEM</button>
-        </div>
-
-        <div className={classes.quantity}>
-       
-       <label htmlFor="" className={classes.label}>Quantity</label>
-       <input type="number" className={classes.input}/>
-     </div>
+       <MealButton/>
         </li>
         ))
     return (
@@ -66,6 +55,10 @@ export default function meal() {
     )
   }
         
+       
+          
+        
+       
         
       
        
